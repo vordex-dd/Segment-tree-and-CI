@@ -32,8 +32,8 @@ class TestSegmentTree(unittest.TestCase):
             ans1: list[int] = ans_class_tree(data, True)
             ans2: list[int] = ans_class_tree(data, False)
             self.assertEqual(len(ans1), len(ans2))
-            # for i in range(len(ans1)):
-                # self.assertEqual(ans1[i], ans2[i])
+            for i in range(len(ans1)):
+                self.assertEqual(ans1[i], ans2[i])
 
 
 if __name__ == '__main__':
