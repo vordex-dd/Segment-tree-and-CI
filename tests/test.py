@@ -27,8 +27,8 @@ def ans_class_tree(data, flag: bool):
 class TestSegmentTree(unittest.TestCase):
 
     def test_correct_ans(self):
-        for file in os.listdir('files'):
-            data: list = read_files(f'files/{file}')
+        for file in os.listdir('tests/files'):
+            data: list = read_files(f'tests/files/{file}')
             ans1: list[int] = ans_class_tree(data, True)
             ans2: list[int] = ans_class_tree(data, False)
             self.assertEqual(len(ans1), len(ans2))
