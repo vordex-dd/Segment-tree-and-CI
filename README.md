@@ -10,4 +10,21 @@
 
 `2 l r` вывести сумму: *N<sub>l</sub> + N<sub>l + 1</sub> + ... + N<sub>r - 1</sub> + N<sub>r</sub>*
 
-[0]:https://progress-bar.dev/5/
+### Пример
+Тест:
+```
+5
+1 2 3 4 5
+4
+2 0 4
+1 1 3 8
+1 0 2 4
+2 0 4
+```
+Ответ:
+```
+15
+51
+```
+
+[0]:https://progress-bar.dev/25/
