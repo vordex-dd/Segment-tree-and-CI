@@ -8,7 +8,7 @@ from tree import Tree, TestTree, BaseTree
 from main import read_files
 
 
-def ans_class_tree(data, flag: bool) -> list[int]:
+def ans_class_tree(data, flag: bool):
     ans: list[int] = []
     tec_free: BaseTree
     if flag:
