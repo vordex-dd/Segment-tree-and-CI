@@ -1,4 +1,4 @@
-![progress][0]
+![progress][0] ![example workflow](https://github.com/vordex-dd/Segment-tree-and-CI/actions/workflows/github-actions.yml/badge.svg)
 #### Предисловие
 Наверное, довольно странная идея писать дерево отрезков на python, но мне давно хотелось потренироваться в написании unit тестов и настройке CI, и, думаю, что дерево отрезков как раз идеально подходит под эту задачу.
 
@@ -56,4 +56,4 @@ python tests/test.py
 ```
 Также можно запустить тесты вручную с помощью *github actions*. Бейдж о результатах тестирования находится в самом начале данного файла.
 
-[0]:https://progress-bar.dev/65/
+[0]:https://progress-bar.dev/75/
