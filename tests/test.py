@@ -1,11 +1,11 @@
 import os
 import sys
 import unittest
-from tree import Tree, TestTree, BaseTree
-from main import read_files
-
 
 sys.path.append(os.getcwd())
+
+from tree import Tree, TestTree, BaseTree
+from main import read_files
 
 
 def ans_class_tree(data, flag: bool) -> list[int]:
