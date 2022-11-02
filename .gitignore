@@ -1,2 +1,3 @@
 .idea
 __pycache__
+tests/update_generate.py
